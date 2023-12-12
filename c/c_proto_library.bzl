@@ -44,7 +44,6 @@ def c_proto_library(name, **kwargs):  # buildifier: disable=function-docstring
         linkopts = kwargs.get("linkopts"),
         linkstatic = kwargs.get("linkstatic"),
         local_defines = kwargs.get("local_defines"),
-        nocopts = kwargs.get("nocopts"),
         strip_include_prefix = kwargs.get("strip_include_prefix"),
         **{
             k: v

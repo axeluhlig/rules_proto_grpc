@@ -351,11 +351,6 @@ Attributes
      - false
      - ``None``
      - Passed to the ``local_defines`` attribute of ``cc_library``.
-   * - ``nocopts``
-     - ``string``
-     - false
-     - ``None``
-     - Passed to the ``nocopts`` attribute of ``cc_library``.
    * - ``strip_include_prefix``
      - ``string``
      - false
@@ -496,11 +491,6 @@ Attributes
      - false
      - ``None``
      - Passed to the ``local_defines`` attribute of ``cc_library``.
-   * - ``nocopts``
-     - ``string``
-     - false
-     - ``None``
-     - Passed to the ``nocopts`` attribute of ``cc_library``.
    * - ``strip_include_prefix``
      - ``string``
      - false
